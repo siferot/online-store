@@ -1,0 +1,16 @@
+.price-container {
+    width: 80px;
+    font-size: 1.05em;
+    text-align: right;
+}
+
+.trash-icon {
+    margin-top: 4px;
+    padding: 10px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.trash-icon:hover {
+    color: rgb(185, 35, 35);
+}

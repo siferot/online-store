@@ -1,0 +1,21 @@
+img {
+    max-width: 95%;
+    max-height: 95%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.card-container {
+    width: 25%;
+    transition: filter 0.3s;
+}
+
+.card-container:hover {
+    filter: brightness(95%);
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: right;
+}

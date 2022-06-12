@@ -1,0 +1,36 @@
+.counter-container {
+    color: #212529;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px #212529 solid;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 0;
+    /* align-items: stretch; */
+}
+
+.counter-container p {
+    margin: 0;
+    height: 100%;
+}
+
+.counter-number {
+    border-left: 1px #212529 solid;
+    border-right: 1px #212529 solid;
+    text-align: center;
+    /* line-height: 32px; */
+    cursor: default;
+}
+
+.counter-button {
+    text-align: center;
+    cursor: pointer;
+    line-height: 32px;
+    transition: background-color .3s ease-out;
+}
+
+.counter-button:hover {
+    background-color: #212529;
+    color: white;
+}
